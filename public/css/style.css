@@ -14,10 +14,17 @@ nav {
 }
 
 .landing {
+	
+	max-width: 1000px;
+}
+
+.category {
 	background-color: #eef3f0;
 	border-radius: 5px;
+	margin:auto;
 	padding: 5px;
-	max-width: 1000px;
+	border: 1px solid grey;
+	margin-bottom: 5px;
 }
 
 .landingItem {
