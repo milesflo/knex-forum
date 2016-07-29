@@ -146,7 +146,7 @@ form > input {
 }
 
 .postContents {
-	width: calc(100% - 130px;);
+	width: calc(100% - 130px);
 	float: right;
 	display: inline-block;
 	background-color: #eee;
