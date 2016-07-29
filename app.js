@@ -48,8 +48,8 @@ app.use(function (req,res,next) {
 })
 
 passport.use(new SteamStrategy({
-    returnURL: process.env.HOST + 'auth/steam/return',
-    realm: process.env.HOST,
+    returnURL: process.env.HOST + 'auth/steam/return' || "localhost:3000/auth/steam/return",
+    realm: process.env.HOST || "localhost:3000",
     apiKey: process.env.API_KEY
   },
   function(identifier, profile, done) {
