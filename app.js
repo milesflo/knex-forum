@@ -48,7 +48,7 @@ app.use(function (req,res,next) {
 })
 
 passport.use(new SteamStrategy({
-    returnURL: process.env.HOST + '/auth/steam/return',
+    returnURL: process.env.HOST + 'auth/steam/return',
     realm: process.env.HOST,
     apiKey: process.env.API_KEY
   },
