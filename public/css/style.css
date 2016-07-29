@@ -7,21 +7,24 @@ header {
 }
 body {
 	width: 100%;
-	background-color: #5784ae;
+	background: #6997d3; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+	background: -webkit-linear-gradient(#6997d3 0%, #1e5799 100%);
+	background: -o-linear-gradient(#6997d3 0%, #1e5799 100%);
+	background: linear-gradient(#6997d3 0%, #1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6997d3', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
 }
 
 nav {
 }
 
 .landing {
-	
+	margin: auto;
 	max-width: 1000px;
 }
 
 .category {
 	background-color: #eef3f0;
 	border-radius: 5px;
-	margin:auto;
 	padding: 5px;
 	border: 1px solid grey;
 	margin-bottom: 5px;
