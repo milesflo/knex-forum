@@ -9,6 +9,7 @@
 
         <ul class="nav navbar-nav navbar-right">
             <% if (user){ %>
+                    <% console.log(user) %>
                     <li><a>Welcome <%= user.username %>!</a></li>
                     <li><a href="/logout"> Log Out</a></li>
                 <% } else { %>
