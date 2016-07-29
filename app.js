@@ -53,7 +53,6 @@ passport.use(new SteamStrategy({
     apiKey: process.env.API_KEY
   },
   function(identifier, profile, done) {
-
     var temp = identifier.split("/")
     var identifier = temp[temp.length-1]
     var steamId = profile._json.steamid
