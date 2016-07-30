@@ -7,6 +7,7 @@ header {
 	background-color: #efefef;
 }
 body {
+	padding-bottom: 20px;
 	width: 100%;
 	background: #6997d3; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
 	background: -webkit-linear-gradient(#6997d3 0%, #1e5799 100%);
