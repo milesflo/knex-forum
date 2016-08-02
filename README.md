@@ -4,6 +4,8 @@
 An expanded CRUD application. 
 Users can create, read, edit, and delete threads within a fixed set of subforums.
 
+<img src ="http://i68.tinypic.com/2agjnu8.jpg" title="Demo" /></div>
+
 #### [See It Live!](http://cool-forums.herokuapp.com/)
 
 ### To Do:
